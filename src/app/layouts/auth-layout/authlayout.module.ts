@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AuthLayoutRoutingModule } from './authlayout-routing.module';
 
-import { LoginComponent } from 'src/app/login/login.component';
-import { SignupComponent } from 'src/app/signup/signup.component';
+import { LoginComponent } from 'src/app/pages/login/login.component';
+import { SignupComponent } from 'src/app/pages/signup/signup.component';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { SignupComponent } from 'src/app/signup/signup.component';
     ],
     imports: [
         NgbModule,
+        FormsModule,
         CommonModule,
         AuthLayoutRoutingModule
     ]

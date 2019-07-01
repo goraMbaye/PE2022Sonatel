@@ -13,7 +13,7 @@ import { NavbarComponent } from './partials/navbar/navbar.component';
 import { FooterComponent } from './partials/footer/footer.component';
 import { AuthLayoutComponent } from 'src/app/layouts/auth-layout/authlayout.component';
 import { AdminLayoutComponent } from 'src/app/layouts/admin-layout/adminlayout.component';
-import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 
 // import { HomeModule } from './home/home.module';
 

@@ -8,7 +8,7 @@ import { Routes, RouterModule } from '@angular/router';
 // import { LandingComponent } from './landing/landing.component';
 import { AuthLayoutComponent } from 'src/app/layouts/auth-layout/authlayout.component';
 import { AdminLayoutComponent } from './layouts/admin-layout/adminlayout.component';
-import { PageNotFoundComponent } from 'src/app/page-not-found/page-not-found.component';
+import { PageNotFoundComponent } from 'src/app/pages/page-not-found/page-not-found.component';
 
 
 const routes: Routes = [
