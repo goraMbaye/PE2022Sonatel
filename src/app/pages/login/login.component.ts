@@ -10,9 +10,9 @@ export class LoginComponent implements OnInit {
   focus;
   focus1;
 
-  private login: string;
-  private paswd: string;
-private loginFail = false;
+  public login: string;
+  public paswd: string;
+  public loginFail = false;
 
   constructor(private router: Router) { }
 
@@ -32,7 +32,7 @@ private loginFail = false;
   }
   public logUserIn(): void {
     if (this.login === 'admin' && this.paswd.toLowerCase() === 'admin') {
-        this.router.navigateByUrl('/admin/axe-agilite');
+        this.router.navigateByUrl('/admin/vue360');
     } else {
       this.loginFail = true;
     }
