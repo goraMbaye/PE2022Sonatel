@@ -35,7 +35,7 @@ const routes: Routes = [
         }
       ]
     },
-    { path: '', redirectTo: 'auth', pathMatch: 'full' },
+    { path: '', redirectTo: 'admin/vue360', pathMatch: 'full' },
     { path: '**', component: PageNotFoundComponent }
 ];
 

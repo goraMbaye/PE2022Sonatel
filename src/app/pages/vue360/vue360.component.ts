@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
     selector: 'app-vue360',
@@ -6,4 +6,12 @@ import { Component } from '@angular/core';
     styleUrls: ['./vue360.component.scss']
 })
 
-export class Vue360Component { }
+export class Vue360Component implements OnInit { 
+    ngOnInit(){
+
+    }
+    
+    getChantiers() {
+        
+    }
+}

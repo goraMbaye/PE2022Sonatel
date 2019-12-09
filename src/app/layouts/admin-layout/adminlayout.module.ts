@@ -15,9 +15,14 @@ import { BackofficeComponent } from 'src/app/pages/backoffice/backoffice.compone
 
 import { ProfileComponent } from 'src/app/pages/profile/profile.component';
 import { LandingComponent } from 'src/app/pages/landing/landing.component';
+import { GrapheComponent } from 'src/app/graphe/graphe.component';
+import { ChartsModule } from 'ng2-charts';
+import { Graphe2Component } from 'src/app/graphe2/graphe2.component';
 
 @NgModule({
     declarations: [
+        //Graphe2Component,
+        GrapheComponent,
         Vue360Component,
         AgiliteComponent,
         MultiservicesComponent,
@@ -33,7 +38,8 @@ import { LandingComponent } from 'src/app/pages/landing/landing.component';
         CommonModule,
         RouterModule,
         HomeModule,
-        AdminLayoutRoutingModule
+        AdminLayoutRoutingModule,
+        ChartsModule
     ],
     exports: [],
     providers: []

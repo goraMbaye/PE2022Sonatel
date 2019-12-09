@@ -14,7 +14,11 @@ import { FooterComponent } from './partials/footer/footer.component';
 import { AuthLayoutComponent } from 'src/app/layouts/auth-layout/authlayout.component';
 import { AdminLayoutComponent } from 'src/app/layouts/admin-layout/adminlayout.component';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
-
+import { GrapheComponent } from './graphe/graphe.component';
+import{ChartsModule} from  'ng2-charts';
+import { Graphe2Component } from './graphe2/graphe2.component';
+import { Graphe3Component } from './graphe3/graphe3.component';
+import { Graphe4Component } from './graphe4/graphe4.component';
 // import { HomeModule } from './home/home.module';
 
 @NgModule({
@@ -26,7 +30,10 @@ import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.com
     FooterComponent,
     AuthLayoutComponent,
     AdminLayoutComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    Graphe2Component,
+    Graphe3Component,
+    Graphe4Component,
   ],
   imports: [
     BrowserModule,
@@ -35,6 +42,8 @@ import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.com
     RouterModule,
     AppRoutingModule,
     // HomeModule
+    ChartsModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
