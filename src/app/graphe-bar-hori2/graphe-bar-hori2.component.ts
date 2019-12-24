@@ -18,7 +18,7 @@ export class GrapheBarHori2Component {
   barChartPlugins = [];
 
   barChartData: ChartDataSets[] = [
-    {data:[23,32,84,31,18,28,32], label:'TAC',backgroundColor: ['blue','blue','blue','blue','blue','blue','blue']}, 
+    {data:[23,32,84,31,18,28,32,55,64,14], label:'TAC',backgroundColor: ['blue','blue','blue','blue','blue','blue','blue','blue','blue','blue','blue']}, 
    // {data:[58,58,58,58,58,58,58],label:'Objectif'}
   ];
 
