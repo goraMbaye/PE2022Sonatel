@@ -6,7 +6,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./graphe4.component.css']
 })
 export class Graphe4Component implements OnInit {
-
+   //public pieChartLabels=['32','68'];
+   public pieChartData=[32,68];
+   public pieCharType='doughnut';
+   pieChartColor:any = [
+    {
+        backgroundColor: [
+          'rgb(0,128,0)',
+          'rgb(192,192,192)'
+        
+        ]
+    }
+]
+  
   constructor() { }
 
   ngOnInit() {

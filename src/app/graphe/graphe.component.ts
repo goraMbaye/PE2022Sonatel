@@ -6,16 +6,25 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./graphe.component.css']
 })
 export class GrapheComponent implements OnInit {
-   //public pieChartLabels=['sales 01','sale 02'];
-   public pieChartData=[100,20];
-   public pieCharType='pie';
-
+   //public pieChartLabels=['sales 01','sale 02','salle0 3','salle 4','salle 05'];
+   public pieChartData=[75,25];
+   public pieCharType='doughnut';
+   pieChartColor:any = [
+    {
+        backgroundColor: [
+          'rgb(138,43,226)',
+          'rgb(192,192,192)'
+        
+        ]
+    }
+]
+  
   constructor() { }
     
   ngOnInit() {
     
                   
-
+   
   }
 
 }
